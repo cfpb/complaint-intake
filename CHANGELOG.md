@@ -9,6 +9,7 @@
 - Converted your-information.html state text inputs to drop-downs.
 - Order of name and address fields on your-information.html.
 - Order of name and address fields on company-information.html.
+- Updated header for landing page to use global header.
 
 ### Deprecated
 - Nothing.
