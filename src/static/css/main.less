@@ -31,6 +31,7 @@
 // Import the Capital Framework enhancements
 @import (less) 'cf-enhancements.less';
 
+// Override Capital Framework fieldset borders and default body font.
 fieldset {
     border: none;
     margin: 0;
@@ -39,4 +40,10 @@ fieldset {
 
 body {
     font-family: "Avenir Next Medium", Arial, sans-serif;
+}
+
+// Override global footer styles.
+.o-footer_pre, .o-footer-post {
+    padding-top: 0;
+    border-top: 0;
 }

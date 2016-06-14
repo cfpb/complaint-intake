@@ -16,7 +16,6 @@ body .wrapper-body {
 
 body .wrapper-container {
 	margin: 0 auto;
-	padding-bottom: 18px;
 	overflow: visible;
 }
 
@@ -1139,7 +1138,7 @@ dd.cr-disclose {
 
 
 #sticky-nav {
-
+    z-index: 10;
 }
 
 #sticky-nav.affix {
