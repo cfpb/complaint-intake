@@ -725,9 +725,9 @@ $('fieldset.point-of-contact').hide();
 $('#consumer1-identity').hide();
 $('#addcon-phone-number').hide();
 $('#addcon-email-helper').hide();
-$('#poc-email-helper').hide();
-$('#poc-phone-number').hide();
-$('#poc-disclosure').hide();
+// $('#poc-email-helper').hide();
+// $('#poc-phone-number').hide();
+// $('#poc-disclosure').hide();
 
 
 
@@ -789,6 +789,7 @@ $('#poc-disclosure').hide();
         }
     });
 
+    /*
     $('#cr-add-poc-full').change(function(){
         if($('#cr-add-poc-full').is(':checked')){
         $('#poc-phone-number').slideDown(400);
@@ -804,6 +805,7 @@ $('#poc-disclosure').hide();
 
         }
     });
+    */
 
   $('.DAMN').on('click', function(){
   		alert('clicked!');
@@ -814,7 +816,6 @@ $('#poc-disclosure').hide();
   		$('.wrapper-container').removeClass('annoslide');
   });
 
-
   $('#annotations-toggle.closed').on('click', function(){
   		$('#annotations-list').slideDown();
   		$('#annotations-toggle a').text('Close annotations');
@@ -824,9 +825,6 @@ $('#poc-disclosure').hide();
   });
 
 $('.cr-military-status').slideUp();
-
-
-
     // error handling without adding a #error-elm
     $('.error-panel a').click(function(){
       $($(this).attr('href')).focus();

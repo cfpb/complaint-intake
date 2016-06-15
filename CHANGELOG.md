@@ -4,7 +4,7 @@
 - Nothing.
 
 ### Changed
-- Nothing.
+- Address and phone number for additional point of contact visible by default.
 
 ### Deprecated
 - Nothing.
