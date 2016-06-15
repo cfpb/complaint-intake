@@ -725,8 +725,8 @@ $('fieldset.point-of-contact').hide();
 $('#consumer1-identity').hide();
 $('#addcon-phone-number').hide();
 $('#addcon-email-helper').hide();
-// $('#poc-email-helper').hide();
-// $('#poc-phone-number').hide();
+$('#poc-email-helper').hide();
+$('#poc-phone-number').hide();
 // $('#poc-disclosure').hide();
 
 
@@ -789,23 +789,21 @@ $('#addcon-email-helper').hide();
         }
     });
 
-    /*
     $('#cr-add-poc-full').change(function(){
         if($('#cr-add-poc-full').is(':checked')){
         $('#poc-phone-number').slideDown(400);
 		$('#poc-email-helper').slideDown();
-		$('#poc-disclosure').slideDown();
-        $('.poc-email-address').removeClass('cr-question-last');
+		//$('#poc-disclosure').slideDown();
+    $('.poc-email-address').removeClass('cr-question-last');
 
         }else{
         $('#poc-phone-number').slideUp(400);
-        $('#poc-disclosure').slideUp();
+        // $('#poc-disclosure').slideUp();
 		$('#poc-email-helper').hide();
         $('.poc-email-address').addClass('cr-question-last');
 
         }
     });
-    */
 
   $('.DAMN').on('click', function(){
   		alert('clicked!');
