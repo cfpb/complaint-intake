@@ -1640,7 +1640,7 @@ column-break-inside:avoid;
 	border: 1px solid #2CB34A;
 }
 
-.cruxform a {
+.cruxform .wrapper-body a {
 	text-decoration: underline
 }
 
